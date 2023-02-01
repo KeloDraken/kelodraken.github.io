@@ -3,12 +3,35 @@
   margin: 0;
 }
 
+#closeSidebar {
+  position: fixed;
+}
 .sidebar {
-  display: flex;
   position: absolute;
   width: 60%;
   height: 100%;
   display: none;
-  background-color: red;
+  background-color: rgba(0, 0, 0, 0.9);
 }
 
+.sidebar a {
+  margin: 880px 45px;
+  font-size: 3rem;
+  text-decoration: none;
+  color: #fff;
+}
+
+section {
+  height: 40vh;
+}
+
+.section-heading {
+  font-size: 4.5rem;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 800px) {
+  section {
+    height: 100vh;
+  }
+}
