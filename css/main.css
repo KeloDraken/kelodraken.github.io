@@ -55,18 +55,18 @@
 }
 
 @media screen and (max-width: 650px) {
-  #about {
+  .about {
     display: none;
   }
 }
 
 @media screen and (max-width: 500px) {
-  #projects {
-    display: none;
-  }
-  
   #nav div {
     margin: 1rem 3rem;
+  }
+
+  .projects {
+    display: none;
   }
 }
 
