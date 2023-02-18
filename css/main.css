@@ -15,6 +15,7 @@
   font-weight: 700;
   margin: 1rem;
 }
+
 #nav {
   background-color: #fff;
   border-bottom: #cecece solid 2px;
@@ -25,9 +26,11 @@
   top: 0;
   width: 100%;
 }
+
 #nav div {
   margin-top: 1rem;
 }
+
 #nav-btn {
   background-color: #000;
   border-radius: 5px;
@@ -37,6 +40,7 @@
   margin: 1rem 1.4rem;
   padding: 0.2rem 1.4rem;
 }
+
 .nav-link {
   color: #000;
   font-size: 1.8rem;
@@ -60,6 +64,7 @@
   #projects {
     display: none;
   }
+  
   #nav div {
     margin: 1rem 3rem;
   }
@@ -69,6 +74,7 @@
   #nav {
     height: 4rem;
   }
+
   #nav-btn {
     background-color: #fff;
     box-shadow: none;
@@ -77,6 +83,7 @@
     font-weight: 700;
     margin: 0.7rem 2rem;
   }
+
   .nav-link {
     font-size: 1.4rem;
     margin: 1rem;
