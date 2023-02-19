@@ -92,27 +92,17 @@
 /* navbar ends */
 
 /* content start */
-.div {
-  background-color: red;
-  height: 10vh;
-  margin: 3rem 3rem;
-}
-
 main {
   padding-top: 5rem;
 }
 
 section {
-  height: auto;
+  padding: 12rem 20rem;
+  text-align: center;
 }
 
 .divider {
   border-bottom: #000 solid 3px;
-}
-
-#hero {
-  margin: 12rem 20rem;
-  text-align: center;
 }
 
 .heading {
@@ -125,9 +115,9 @@ section {
 }
 
 @media screen and (max-width: 1700px) {
-  #hero {
-    margin: 7rem 20rem;
-  }  
+  section {
+    padding: 7rem 20rem;
+  }
   .heading {
     font-size: 8rem;
   }
@@ -137,8 +127,8 @@ section {
 }
 
 @media screen and (max-width: 1506px) {
-  #hero {
-    margin: 6rem 20rem;
+  section {
+    padding: 6rem 20rem;
   }
   .heading {
     font-size: 8rem;
@@ -149,8 +139,8 @@ section {
 }
 
 @media screen and (max-width: 1332px) {
-  #hero {
-    margin: 6rem 20rem;
+  section {
+    padding: 6rem 20rem;
   }
   .heading {
     font-size: 6rem;
@@ -161,14 +151,14 @@ section {
 }
 
 @media screen and (max-width: 1157px) {
-  #hero {
-    margin: 6rem 15rem;
+  section {
+    padding: 6rem 15rem;
   }
 }
 
 @media screen and (max-width: 1000px) {
-  #hero {
-    margin: 6rem 14rem;
+  section {
+    padding: 6rem 14rem;
   }
   .subheading {
     font-size: 2rem;
@@ -189,8 +179,8 @@ section {
 }
 
 @media screen and (max-width: 795px) {
-  #hero {
-    margin: 4rem 10rem;
+  section {
+    padding: 4rem 10rem;
   }
   .heading {
     font-size: 3rem;
@@ -202,8 +192,8 @@ section {
 }
 
 @media screen and (max-width: 623px) {
-  #hero {
-    margin: 3rem 4rem;
+  section {
+    padding: 3rem 4rem;
   }
   .heading {
     font-size: 2.5rem;
@@ -212,5 +202,17 @@ section {
   .subheading {
     font-size: 1.3rem;
   }
+}
+
+#skills {
+  background-color: rgb(243, 75, 75);
+}
+
+#projects {
+  background-color: rgb(243, 232, 75);
+}
+
+#contact {
+  background-color: rgb(75, 176, 243);
 }
 /* content ends  */
