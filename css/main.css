@@ -18,7 +18,7 @@
 
 #nav {
   background-color: #fff;
-  border-bottom: #cecece solid 2px;
+  border-bottom: #cecece solid 3px;
   display: flex;
   height: 5rem;
   justify-content: space-between;
@@ -104,5 +104,113 @@ main {
 
 section {
   height: auto;
+}
+
+.divider {
+  border-bottom: #000 solid 3px;
+}
+
+#hero {
+  margin: 12rem 20rem;
+  text-align: center;
+}
+
+.heading {
+  font-size: 10rem;
+}
+
+.subheading {
+  font-size: 3.5rem;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 1700px) {
+  #hero {
+    margin: 7rem 20rem;
+  }  
+  .heading {
+    font-size: 8rem;
+  }
+  .subheading {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 1506px) {
+  #hero {
+    margin: 6rem 20rem;
+  }
+  .heading {
+    font-size: 8rem;
+  }
+  .subheading {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 1332px) {
+  #hero {
+    margin: 6rem 20rem;
+  }
+  .heading {
+    font-size: 6rem;
+  }
+  .subheading {
+    font-size: 2.6rem;
+  }
+}
+
+@media screen and (max-width: 1157px) {
+  #hero {
+    margin: 6rem 15rem;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  #hero {
+    margin: 6rem 14rem;
+  }
+  .subheading {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 970px) {
+  .heading {
+    font-size: 4rem;
+    font-weight: 700;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .subheading {
+    font-size: 1.8rem;
+  }
+}
+
+@media screen and (max-width: 795px) {
+  #hero {
+    margin: 4rem 10rem;
+  }
+  .heading {
+    font-size: 3rem;
+    font-weight: 800;
+  }
+  .subheading {
+    font-weight: 700;
+  }
+}
+
+@media screen and (max-width: 623px) {
+  #hero {
+    margin: 3rem 4rem;
+  }
+  .heading {
+    font-size: 2.5rem;
+    font-weight: 800;
+  }
+  .subheading {
+    font-size: 1.3rem;
+  }
 }
 /* content ends  */
